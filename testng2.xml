@@ -1,0 +1,22 @@
+<suite name="Smoke">
+    <test name="Smoke" preserve-order="false">
+        <classes>
+            <class name="Tests.LoginTests">
+                <methods>
+                    <include name="loginSuccess" />
+                </methods>
+            </class>
+
+            <class name="Tests.TradingTests">
+                <methods>
+                    <include name="buyCoins" />
+                </methods>
+            </class>
+            <class name="Tests.SettingsTests">
+                <methods>
+                    <include name="changeColorSchemeToDark" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
